@@ -1,0 +1,47 @@
+.carousel {
+    top: -35px;
+    z-index: 1;
+}
+.carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer;
+  
+    &.active {
+      background-color: #00000073;
+    }
+  }
+
+
+.carousel-caption {
+  text-align: left;
+  left: 3%;
+  top: 40%;
+}
+
+.carousel-caption h2 {
+  width: 200px;
+  font-size: 4rem;
+  font-family: Verdana, Rubik, Tahoma, sans-serif;
+}
+
+.carousel-caption button {
+  width: 160px;
+  height: 60px;
+  border-radius: 35px;
+}
+
+@media screen and (min-width:1024px){
+  .carousel-caption h2{
+    width: 500px;
+    font-size: 8rem;
+  }
+
+  .carousel-caption button {
+    width: 378px;
+    height: 90px;
+  }
+}
