@@ -1,0 +1,32 @@
+.card-image-1{
+    border-radius: 50px;
+    position: relative;
+    left: 190px;
+    top: 20px;
+    z-index: 1;
+}
+
+.card-image-2{
+    border-radius: 50px;
+    position: relative;
+    top: 250px;
+    z-index: 2;
+}
+
+.card-text{
+    position: relative;
+    top: 250px;
+    left: 1100px;
+    width: 400px;
+    z-index: 3;
+}
+
+.card-text button{
+    border-radius: 100px;
+    background-color: #B1934E;
+    color: #EEEEEE;
+}
+
+.card-text button:hover{
+    background-color: #836d3d;
+}
