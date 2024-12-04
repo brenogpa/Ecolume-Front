@@ -19,14 +19,15 @@
     left: 1100px;
     width: 400px;
     z-index: 3;
+
+    button{
+        border-radius: 100px;
+        background-color: #B1934E;
+        color: #EEEEEE;
+    }
+
+    button:hover{
+        background-color: #836d3d;
+    }
 }
 
-.card-text button{
-    border-radius: 100px;
-    background-color: #B1934E;
-    color: #EEEEEE;
-}
-
-.card-text button:hover{
-    background-color: #836d3d;
-}

@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { CarouselComponent } from '../../components/carousel/carousel.component';
+import { BannerComponent } from "../../components/banner/banner.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CarouselComponent],
+  imports: [CarouselComponent, BannerComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
